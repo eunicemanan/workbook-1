@@ -35,6 +35,8 @@ public class RentACar {
         System.out.println("How old are you? Asking for a friend : ");
         Integer age = input.nextInt();
 
+        System.out.println(totalCost);
+
         //Calculate cost :( oh dear this is going to be very hard
 
         double baseRental = rentalDays * baseRate;
@@ -54,6 +56,7 @@ public class RentACar {
             optionsCost += rentalDays * underageSurchargeCost;
         }
         double totalCost = baseRental +optionsCost +underageSurcharge;
+            if
         }
     //RESULTS (HOW DID WE GET HERE, I DO NOT KNOW)
 
